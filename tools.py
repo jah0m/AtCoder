@@ -6,4 +6,6 @@ def gcd(*numbers):
 #根据列表元素的第二个值进行排序
 def takeSecond(elem):
     return elem[1]
-l.sort(key=takeSecond)
+#用二分法查找x在已排列的list中排第几位
+import bisect
+index = bisect.bisect_left(sorted_arr, x)
