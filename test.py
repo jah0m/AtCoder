@@ -1,2 +1,1 @@
-for i in range(5)[::-1]:
-    print(i)
+print(1 + (True))
