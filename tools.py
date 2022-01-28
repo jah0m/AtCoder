@@ -16,3 +16,8 @@ def takeSecond(elem):
 #用二分法查找x在已排列的list中排第几位
 import bisect
 index = bisect.bisect_left(sorted_arr, x)
+
+#優先度付きキュー,最小値(最大値)のみを得たい、のみに処理したい、を何回も繰り返す場合は優先度付きキューを使うと速い！！！
+import heapq
+heapq.heappop()
+heapq.heappush()
