@@ -21,3 +21,6 @@ index = bisect.bisect_left(sorted_arr, x)
 import heapq
 heapq.heappop()
 heapq.heappush()
+
+#带默认值的字典
+from collections import defaultdict
