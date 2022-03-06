@@ -16,5 +16,5 @@ dp[sy][sx] = [0, 0]
 for i in range(n):
     for j in range(m):
         if i == sy and j == sx: continue
-        from_left = dp[i][j-1] + (arr[i][j] == '#' and arr[i][j-1] == '.')
-        from_top = dp[i-1][j] + (arr[i][j] == '#' and arr[i-1][j] == '.')
+        from_left = dp[i][j-1][0] + 1 + ()
+        from_top = dp[i-1][j]
